@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 100%;
+    z-index: 999;
+}
+
+main{
+    padding-top: 200px;
+    background-color: #fff;
+    color: black;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    position: relative;
+
+}
+
+.product{
+    position: relative;
+    height: 400px; 
+}
+
+.column-container{
+    flex-direction: column;
+    position: relative;
+    width: 30%;
+    height: 50%;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+}
+
+.immagine-base{
+    z-index: 3;   
+}
+
+.immagine-base:hover{
+    display: none;
+}
+
+.testo{
+    font-size: 10px;
+}
+
+.tags{
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    width: 40%;
+    z-index: 90;
+    color: #fff;
+}
+
+.prezzi{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.prezzo-scontato{
+    color: red;
+}
+
+.prezzo-vecchio{
+    text-decoration: line-through;
+    padding-left: 2%;
+}
+
+.sconto{
+    background-color: red;
+}
+
+.sostenibili{
+    background-color: green;
+    margin-left: 2%;
+}
