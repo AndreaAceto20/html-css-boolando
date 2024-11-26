@@ -79,6 +79,30 @@ img{
     color: #fff;
 }
 
+.sconto{
+    background-color: red;
+}
+
+.sostenibili{
+    background-color: green;
+    margin-left: 2%;
+}
+
+.heart::after{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2%;
+    right: 32%;
+    content: "\2665";
+    color: black;
+    background-color: #fff;
+    width: 10%;
+    height: 10%;
+    z-index: 90;
+    font-size: 40px;
+}
 .prezzi{
     display: flex;
     justify-content: flex-start;
@@ -93,11 +117,3 @@ img{
     padding-left: 2%;
 }
 
-.sconto{
-    background-color: red;
-}
-
-.sostenibili{
-    background-color: green;
-    margin-left: 2%;
-}
